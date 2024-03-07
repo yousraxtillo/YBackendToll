@@ -1,17 +1,3 @@
-indexmappingjson = {
-    "properties":{
-        "Versjon":{
-            "type":"long"
-        },"Avsnitt":{
-            "type":"text"
-        },"Beskrivelse":{
-            "type":"text"
-        },
-        "DescriptionVector":{
-            "type": "dense_vector",
-            "dims": 1536,
-            "index": True,
-            "similarity": "l2_norm"
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb68f4665dc6dc050ff367483b0eb8f2ef8b49e4d37f84161731de4697cbbd14
+size 369
